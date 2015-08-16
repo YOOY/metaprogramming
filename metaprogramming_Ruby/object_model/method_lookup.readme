@@ -1,0 +1,11 @@
+# This is how Ruby lookup the method 
+# when sending a message(aka method) to an object
+# 
+# First, it lookup in obj itself whether Ruby can find the method or not
+# Then to the obj's singleton_class(meta class)
+# The Class of the object
+# The module include inside the class of the object
+# to the Class of the Class of the object
+# repeated until BasicObject
+#
+# It is called "one step to the right, then up"
