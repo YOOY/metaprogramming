@@ -1,5 +1,5 @@
-# in Ruby private means that method can't have explict receiver
-# in other words, it must be called on the implict receiver - self
+# in Ruby private method means that method can't have explicit receiver
+# in other words, it must be called on the implicit receiver - self
 
 
 class A
