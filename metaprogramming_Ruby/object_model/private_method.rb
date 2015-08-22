@@ -3,13 +3,13 @@
 
 
 class A
-  def use_explict_receiver_private_method
+  def use_explicit_receiver_private_method
     self.private_method
   rescue => e
     p e
   end
 
-  def use_implict_receiver_private_method
+  def use_implicit_receiver_private_method
     private_method
   end
 
@@ -19,8 +19,8 @@ class A
   end
 end
 
-p "A.new.use_explict_receiver_private_method"
-A.new.use_explict_receiver_private_method
+p "A.new.use_explicit_receiver_private_method"
+A.new.use_explicit_receiver_private_method
 
-p "A.new.use_implict_receiver_private_method"
-A.new.use_implict_receiver_private_method
+p "A.new.use_implicit_receiver_private_method"
+A.new.use_implicit_receiver_private_method
